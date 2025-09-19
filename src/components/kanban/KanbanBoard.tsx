@@ -4,14 +4,13 @@ import { useState } from 'react'
 import {
   DndContext,
   DragEndEvent,
-  DragOverEvent,
   DragOverlay,
   DragStartEvent,
   PointerSensor,
   useSensor,
   useSensors,
 } from '@dnd-kit/core'
-import { SortableContext, arrayMove } from '@dnd-kit/sortable'
+import { SortableContext } from '@dnd-kit/sortable'
 import { KanbanColumn, KanbanCard } from '@/types'
 import { KanbanColumnComponent } from './KanbanColumn'
 import { KanbanCardComponent } from './KanbanCard'
